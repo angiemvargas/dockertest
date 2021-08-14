@@ -12,7 +12,7 @@ RUN nmp install
 
 #copiar el codigo, cuando tengo muclas clases se pone . para añadir todo
 # se crea archivo .dockerignore  y se pone el node_modules
-ADD app.js
+ADD . /dockertest
 
 # expose  
 EXPOSE 5000
