@@ -1,6 +1,9 @@
 # partir de una imagen
 FROM node:14
 
+# espacio de trabajo
+WORKDIR /dockertest
+
 # añadir package
 ADD package.json package-lock.json
 
