@@ -5,7 +5,7 @@ FROM node:14
 WORKDIR /dockertest
 
 # añadir package
-ADD package.json package-lock.json
+ADD package.json package-lock.json /dockertest
 
 # instalar dependencias
 RUN nmp install
